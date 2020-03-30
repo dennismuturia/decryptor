@@ -8,6 +8,6 @@ public class Main {
 	// write your code here
         Timer t = new Timer();
         DoSomthing doSomthing =new DoSomthing();
-        t.scheduleAtFixedRate(doSomthing, 0, 10000);
+        t.scheduleAtFixedRate(doSomthing, 0, 100000);
     }
 }

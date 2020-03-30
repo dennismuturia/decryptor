@@ -12,7 +12,6 @@ public class TimeCalc {
         String[] y = license.split(" ");
         LocalDate startDate= LocalDate.parse(y[1]);
         LocalDate endDate= LocalDate.parse(y[2]);
-        long noOfDaysBetween = DAYS.between(startDate, endDate);
-        return noOfDaysBetween;
+        return DAYS.between(startDate, endDate);
     }
 }
